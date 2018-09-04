@@ -30,7 +30,14 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 
 
 # add your code here /\  /\  /\
-
-
+from ggame import App
 myapp = App()
 myapp.run()
+black=Color(0x000000, 1.0)
+red = Color(0xff0000, 1.0)
+green = Color(0x00ff00, 1.0)
+blue = Color(0x0000ff, 1.0)
+thinline=LineStyle(1, black)
+rectangleRed=RectangleAsset(50, 20, thinline, red)
+Sprite(rectangleRed, (100,50))
+Sprite(rectangleRed, (200,50))
