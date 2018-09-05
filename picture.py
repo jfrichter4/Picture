@@ -33,6 +33,7 @@ from ggame import App, Color, LineStyle, Sprite, RectangleAsset, CircleAsset, El
 from ggame import App
 myapp = App()
 myapp.run()
+hair=Color(0x8B4C39, 1.0)
 black=Color(0x000000, 1.0)
 red = Color(0xff0000, 1.0)
 green = Color(0x00ff00, 1.0)
@@ -43,9 +44,15 @@ rectangleRed=RectangleAsset(75, 20, thinline, red)
 circle = CircleAsset (200, thinline, white)
 ellipse = EllipseAsset (45, 45, thinline, blue)
 polygon = PolygonAsset ([(0,0), (100,-150), (200,0)], thinline, green)
+polygonHair = PolygonAsset ([(0,0), (100,-150), (200,0)], thinline, hair)
 Sprite(circle, (10, 0))
 Sprite(rectangleRed, (120,50))
+#Brow1
 Sprite(rectangleRed, (230,50))
+#Brow2
 Sprite(ellipse, (120, 50))
+#Eye1
 Sprite(ellipse, (230, 50))
+#Eye2
 Sprite(polygon, (50,10))
+#Nose
