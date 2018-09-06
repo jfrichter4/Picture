@@ -60,4 +60,5 @@ Sprite(rectangle, (205, 160))
 #Nose
 Sprite(polygonHair, (100, 0))
 #Hair
-Sprite(rectangleRed, (300, 0))
+Sprite(rectangleRed, (175, 0))
+#Mouth
