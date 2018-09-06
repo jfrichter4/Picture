@@ -44,8 +44,9 @@ rectangleRed=RectangleAsset(75, 20, thinline, red)
 circle = CircleAsset (200, thinline, white)
 ellipse = EllipseAsset (45, 45, thinline, blue)
 polygon = PolygonAsset ([(0,0), (100,-150), (200,0)], thinline, green)
-polygonHair = PolygonAsset ([(0,0), (100,-150), (200,0)], thinline, hair)
+polygonHair = PolygonAsset ([(200,20), (10,-15), (200,0)], thinline, hair)
 Sprite(circle, (10, 0))
+#Face
 Sprite(rectangleRed, (120,50))
 #Brow1
 Sprite(rectangleRed, (230,50))
@@ -56,3 +57,5 @@ Sprite(ellipse, (230, 50))
 #Eye2
 Sprite(polygon, (50,10))
 #Nose
+Sprite(polygonHair, (100, 0))
+#Hair
