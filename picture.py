@@ -40,22 +40,24 @@ green = Color(0x00ff00, 1.0)
 blue = Color(0x0000ff, 1.0)
 white = Color(0xf8f8ff, 1.0)
 thinline=LineStyle(1, black)
+rectangle=RectangleAsset(15, 50, thinline, red)
 rectangleRed=RectangleAsset(75, 20, thinline, red)
 circle = CircleAsset (200, thinline, white)
 ellipse = EllipseAsset (45, 45, thinline, blue)
-polygon = PolygonAsset ([(0,0), (100,-150), (200,0)], thinline, green)
-polygonHair = PolygonAsset ([(200,20), (10,-15), (200,0)], thinline, hair)
+polygon = PolygonAsset ([(200,500), (100,0), (20,500)], thinline, green)
+polygonHair = PolygonAsset ([(200,20), (100,-15), (200,20)], thinline, hair)
 Sprite(circle, (10, 0))
 #Face
 Sprite(rectangleRed, (120,50))
 #Brow1
 Sprite(rectangleRed, (230,50))
 #Brow2
-Sprite(ellipse, (120, 50))
+Sprite(ellipse, (113, 75))
 #Eye1
-Sprite(ellipse, (230, 50))
+Sprite(ellipse, (225, 75))
 #Eye2
-Sprite(polygon, (50,10))
+Sprite(rectangle, (205, 160))
 #Nose
 Sprite(polygonHair, (100, 0))
 #Hair
+Sprite(rectangleRed, (300, 0))
