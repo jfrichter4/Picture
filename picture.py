@@ -1,7 +1,7 @@
 """
 picture.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: Joe Richter
+Credit: https://www.webucator.com/blog/2015/03/python-color-constants-module/, and myself
 
 Assignment:
 
